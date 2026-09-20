@@ -1,4 +1,4 @@
-# 🚦 Implementation of a Camera-Based Traffic Violation Detection System Using Computer Vision
+#  Implementation of a Camera-Based Traffic Violation Detection System Using Computer Vision
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" />
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project presents a **camera-based traffic violation detection system** using deep learning computer vision techniques. Two object detection architectures are implemented and compared:
 
@@ -20,17 +20,16 @@ The goal is to evaluate the trade-off between **speed** and **accuracy** for det
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 Project-RM/
-│
-└── violation_detection.ipynb   # Main notebook: preprocessing, training, evaluation
+violation_detection.ipynb   # Main notebook: preprocessing, training, evaluation
 ```
 
 ---
 
-## 🧪 Model Evaluation Results
+## Model Evaluation Results
 
 The table below summarizes the performance of both models on the test dataset:
 
@@ -45,24 +44,24 @@ The table below summarizes the performance of both models on the test dataset:
 
 ---
 
-## 📊 Analysis
+## Analysis
 
-### ⚡ YOLOv8 — Speed Champion
+### YOLOv8 — Speed Champion
 - Achieves an extremely high inference speed of **154.35 FPS** (6.48 ms/frame)
 - Suitable for **real-time** traffic monitoring systems
 - Slightly lower accuracy compared to Faster R-CNN
 
-### 🎯 Faster R-CNN — Accuracy Champion
+### Faster R-CNN — Accuracy Champion
 - Achieves superior accuracy with **Precision: 0.977**, **Recall: 0.976**, and **AUC: 0.985**
 - More reliable in detecting violations with fewer false positives
 - Slower inference at **30.68 FPS** (32.60 ms/frame)
 
-### 🔍 Conclusion
+### Conclusion
 > **Faster R-CNN** outperforms YOLOv8 in accuracy across all metrics (Precision, Recall, F1-Score, AUC), making it more suitable when detection correctness is the priority. However, **YOLOv8** is significantly faster (~5× FPS), making it the better choice for real-time applications where speed is critical.
 
 ---
 
-## 🛠️ Tools & Libraries
+## Tools & Libraries
 
 | Category        | Tools                                      |
 |-----------------|--------------------------------------------|
@@ -74,7 +73,7 @@ The table below summarizes the performance of both models on the test dataset:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Open `violation_detection.ipynb` in [Google Colab](https://colab.research.google.com/)
 2. Upload the notebook and dataset
@@ -82,8 +81,12 @@ The table below summarizes the performance of both models on the test dataset:
 
 ---
 
-## 👤 Author
+## Author
 
 **lxgann**  
-📚 Research Methodology Project — Semester 4  
-🏫 [GitHub Profile](https://github.com/lxgann)
+Research Methodology Project — Semester 4  
+[GitHub Profile](https://github.com/lxgann)
+
+**briansnjya**
+Research Methodology Project - Semester 4
+[GitHub Profile](https://github.com/briansnjya).
