@@ -84,9 +84,9 @@ The table below summarizes the performance of both models on the test dataset:
 ## Author
 
 **lxgann**  
-Research Methodology Project — Semester 4  
+Research Methodology Project - Semester 4  
 [GitHub Profile](https://github.com/lxgann)
 
-**briansnjya**
+**briansnjya**  
 Research Methodology Project - Semester 4
 [GitHub Profile](https://github.com/briansnjya).
